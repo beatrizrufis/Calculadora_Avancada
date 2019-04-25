@@ -12,6 +12,10 @@ public class Principal {
     
         if((vet[1]).equals("+")){
             System.out.println(c.Soma(Double.parseDouble(vet[0]), Double.parseDouble(vet[2])));
+        }else{
+            if((vet[1].equals("-"))){
+                System.out.println(c.Subtracao(Double.parseDouble(vet[0]), Double.parseDouble(vet[2])));
+            }
         }
         
     }

@@ -4,4 +4,9 @@ public class Calculo {
         double result = a + b;
         return result;
     }
+    
+    public double Subtracao(double a, double b){
+        double result = a - b;
+        return result;
+    }
 }
