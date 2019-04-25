@@ -21,12 +21,15 @@ public class Principal {
                     System.out.println(c.Raiz_Cubica(Double.parseDouble(vet[0])));
                     //raiz quadrada
                     System.out.println(c.Raiz_Quadrada(Double.parseDouble(vet[0])));
-                     if((vet[1].equals("v"))){
+		}else{
+                     if((vet[1].equals("*"))){
 			     System.out.println(c.Multiplicacao(Double.parseDouble(vet[0]), Double.parseDouble(vet[2])));		
-                    }
-                }
-            }
-        }
+                    }else{
+			if((vet[1].equals("%"))){
+				System.out.printls(c.Porcentagem(Double.parseDouble(vet[0], Double.parseDouble(vet[2])));
+			}
+            	    }
+        	}
 }
 
     

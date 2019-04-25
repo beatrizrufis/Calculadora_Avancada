@@ -20,6 +20,12 @@ public class Calculo {
         result = java.lang.Math.sqrt(a);
         return result;
     }
+
+    public double Porcentagem(double a double b){
+	    double result;
+	    result = a*b/100;
+	    return result;
+	}
     
     public double Raiz_Cubica(double a){
         double result;
