@@ -9,4 +9,16 @@ public class Calculo {
         double result = a - b;
         return result;
     }
+    
+    public double Raiz_Quadrada(double a){
+        double result;
+        result = java.lang.Math.sqrt(a);
+        return result;
+    }
+    
+    public double Raiz_Cubica(double a){
+        double result;
+        result = java.lang.Math.cbrt(a);
+        return result;
+    }
 }
