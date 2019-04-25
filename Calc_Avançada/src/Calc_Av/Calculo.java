@@ -26,9 +26,16 @@ public class Calculo {
         return result;
     }
 
-    public double Porcentagem(double a double b){
+    public double Porcentagem(double a, double b){
 	    double result;
 	    result = a*b/100;
 	    return result;
 	}
+    public double Logaritmo(double a, double b){
+    	double result;
+	result = Math.log(a)/Math.log(b);
+	return result;
+    }
+
+	 
 }

@@ -24,11 +24,13 @@ public class Principal {
 			     System.out.println(c.Multiplicacao(Double.parseDouble(vet[0]), Double.parseDouble(vet[2])));		
                     }else{
 			if((vet[1].equals("%"))){
-				System.out.printls(c.Porcentagem(Double.parseDouble(vet[0], Double.parseDouble(vet[2])));
+				System.out.printls(c.Porcentagem(Double.parseDouble(vet[0]), Double.parseDouble(vet[2])));
 			}else{
 				if((vet[1].equals("/"))){
-					System.out.printls(c.Divisao(Double.parseDouble(vet[0], Double.parseDouble(vet[2])));
-				}
+					System.out.printls(c.Divisao(Double.parseDouble(vet[0]), Double.parseDouble(vet[2))));
+				}else{
+					if((vet[1].equals("l"))){
+						System.out.printls(c.Logaritmo(Double.parseDouble(vet[0]), Double.parseDouble(vet[2])));
             	    }
         	}
 }
