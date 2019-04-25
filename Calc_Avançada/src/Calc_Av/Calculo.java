@@ -6,8 +6,13 @@ public class Calculo {
     }
     
     public double Subtracao(double a, double b){
-        double result = a - b;
+	double result = a - b;
         return result;
+    }
+
+    public double Multiplicacao(double a, double b){
+	    double result = a * b;
+	    return result;
     }
     
     public double Raiz_Quadrada(double a){
